@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+h1{
+    background-color: rgb(25, 25, 61);
+    color: white;
+    height: 50px;
+    line-height: 3rem;
+    align-items: center;
+}
+h1 i{
+    margin-left: 20px;
+}
+.choices{
+    height: 165px;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+}
+.images:hover{
+    opacity:0.8;
+    border: 1px solid rgb(25, 25, 61);
+}
+.images{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.rock{
+    background-image: url("rockreal.png");
+    background-size: cover;
+    height: 150px;
+}
+
+.Paper{
+    background-image: url("paperreal.png");
+    background-size: cover;
+    height:150px ;
+}
+.Scissors{
+    background-image: url("scissorsreal.jpg");
+    background-size: cover;
+    height:150px ;
+}
+.images p{
+    line-height: 21rem;
+    font-size: 2rem;
+    color: rgba(25, 25, 61, 0.809);
+}
+.names{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.8rem;
+}
+.score-board{
+    color: rgb(25, 25, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 50px;
+    gap: 5.5rem;
+}
+#user-score, #comp-score{
+    font-size: 3rem;
+}
+.msg-container{
+    height: 40px;
+    width: 240px;
+    margin-left: 420px;
+}
+.msg-container:click{
+    opacity: 0.8;
+    border: 2px solid rgb(44, 44, 103) ;
+}
+#msg{
+    padding: 9px;
+    border-radius:10px ;
+    margin-top: 30px;
+    
+    background-color: rgb(25, 25, 61);
+    color: white;
+    font-size: 1.7rem;
+}
